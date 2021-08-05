@@ -1,0 +1,8 @@
+kali@kali:~$ sudo apt update
+kali@kali:~$ sudo apt install -y git live-build simple-cdd cdebootstrap curl
+kali@kali:~$
+kali@kali:~$ git clone https://gitlab.com/kalilinux/build-scripts/live-build-config.git
+kali@kali:~$ cd live-build-config/
+kali@kali:~/live-build-config$ ./build.sh --verbose
+‎شرح تثبيت ubuntu 18.04
+8.7
